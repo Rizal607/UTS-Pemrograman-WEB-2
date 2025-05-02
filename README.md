@@ -1,10 +1,8 @@
-# UTS-Pemrograman-WEB-2
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>To-Do List</title>
+  <title>To do list </title>
   <style>
     body { font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; }
     h1 { color: #333; }
@@ -16,7 +14,7 @@
   </style>
 </head>
 <body>
-  <h1>To-Do List</h1>
+  <h1>Apa yang sudah saya lakukan hari ini ?</h1>
   <form action="/add" method="POST">
     <input type="text" name="task" placeholder="Tambahkan task baru..." required>
     <button type="submit">Tambah</button>
